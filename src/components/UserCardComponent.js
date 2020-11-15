@@ -14,6 +14,7 @@ function UserCardComponent(props) {
         <p className="card-text">
           {props.user.company.catchPhrase}
         </p>
+        <button className="btn btn-primary btn-block">Go to full details</button>
       </div>
     </div>
   );
