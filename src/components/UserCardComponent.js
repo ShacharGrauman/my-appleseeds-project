@@ -1,4 +1,5 @@
 import React from "react";
+import {Link} from 'react-router-dom';
 
 function UserCardComponent(props) {
   return (
@@ -14,7 +15,7 @@ function UserCardComponent(props) {
         <p className="card-text">
           {props.user.company.catchPhrase}
         </p>
-        <button className="btn btn-primary btn-block">Go to full details</button>
+        <Link className="btn btn-primary btn-block" to={`/user-details/${props.user.id}`}>Go to full details</Link>
       </div>
     </div>
   );
