@@ -20,6 +20,10 @@ function HeaderComponent() {
                             {/* <a className="nav-link" href="#">About</a> */}
                             <Link className="nav-link" to="/about">About</Link>
                         </li>
+                        <li className="nav-item">
+                            {/* <a className="nav-link" href="#">About</a> */}
+                            <Link className="nav-link" to="/all-recipes">All Recipes</Link>
+                        </li>
                         {/* <li className="nav-item">
                             <a className="nav-link" href="#">Pricing</a>
                         </li>

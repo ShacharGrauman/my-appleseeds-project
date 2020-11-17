@@ -6,6 +6,7 @@ import AboutComponent from "./AboutComponent";
 import HeaderComponent from "./HeaderComponent";
 import FooterComponent from "./FooterComponent";
 import UserDetails from "./UserDetails";
+import AllRecipes from "./AllRecipes";
 
 //Overall layouting
 //Here we have the header, footer and anything else which is site-wide
@@ -24,6 +25,9 @@ function App() {
             </Route>
             <Route path="/user-details/:id">
               <UserDetails />
+            </Route>
+            <Route path="/all-recipes">
+              <AllRecipes />
             </Route>
           </Switch>
         </div>
